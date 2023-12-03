@@ -45,6 +45,7 @@ public class Categories {
     void addPosition() {
 
         CategoriesClass positionRequest = new CategoriesClass();
+
         positionRequest.setName(randomCategoryName());
 
         positionResponse = given()
