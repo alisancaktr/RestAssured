@@ -59,7 +59,7 @@
                 <version>3.2.2</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/java/JenkinsXML.xml</suiteXmlFile>
+                        <suiteXmlFile>C:\Users\Public\Pictures\RestAssured\src\test\java\JenkinsXML.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
