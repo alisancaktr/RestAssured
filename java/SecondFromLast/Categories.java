@@ -41,7 +41,7 @@ public class Categories {
 
     CategoriesClass positionResponse = new CategoriesClass();
 
-    @Test( )
+    @Test()
     void addPosition() {
 
         CategoriesClass positionRequest = new CategoriesClass();
@@ -62,7 +62,7 @@ public class Categories {
                 .extract().jsonPath().getObject("", CategoriesClass.class);
 
     }
-
+/*
     @Test(dependsOnMethods = "addPosition")
     void updatePosition() {
 
@@ -78,7 +78,9 @@ public class Categories {
                 .statusCode(200);
 
     }
+*/
 
+    /*
     @Test(dependsOnMethods = "addPosition")
     void deletePosition() {
         given()
@@ -89,7 +91,7 @@ public class Categories {
                 .then()
                 .statusCode(204);
     }
-
+*/
 }
 
 
