@@ -48,6 +48,8 @@ public class Categories {
 
         positionRequest.setName(randomCategoryName());
 
+
+
         positionResponse = given()
                 .body(positionRequest)
                 .cookies(cookies)
